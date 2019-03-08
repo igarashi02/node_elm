@@ -12,14 +12,23 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-      return queryInterface.bulkInsert('stage', [{
-        name: '早熟'
+      const time = new Date();
+      return queryInterface.bulkInsert('mst_types', [{
+          name: '早熟',
+          created_at: time,
+          updated_at: time
       },{
-        name: '持続'
+          name: '持続',
+          created_at: time,
+          updated_at: time
       },{
-        name: '普通'
+          name: '普通',
+          created_at: time,
+          updated_at: time
       },{
-        name: '晩成'
+          name: '晩成',
+          created_at: time,
+          updated_at: time
       }], {});
   },
 

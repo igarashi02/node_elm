@@ -13,44 +13,94 @@ module.exports = {
       }], {});
     */
       const time = new Date();
-      return queryInterface.bulkInsert('mst_stages', [{
-          name: '第1段階',
+      return queryInterface.bulkInsert('mst_training_heavy_mains', [{
+          stage_id: 1,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第2段階',
+          stage_id: 2,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第3段階',
+          stage_id: 3,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第4段階',
+          stage_id: 4,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       },{
-          name: 'ピーク',
+          stage_id: 5,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       },{
-          name: '準ピーク',
+          stage_id: 6,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第5段階',
+          stage_id: 7,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第6段階',
+          stage_id: 8,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第7段階',
+          stage_id: 9,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第8段階',
+          stage_id: 10,
+          e: '',
+          d: '',
+          c: '',
+          b: '',
+          a: '',
           created_at: time,
           updated_at: time
       }], {});

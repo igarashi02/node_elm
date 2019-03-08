@@ -13,44 +13,54 @@ module.exports = {
       }], {});
     */
       const time = new Date();
-      return queryInterface.bulkInsert('mst_stages', [{
-          name: '第1段階',
+      return queryInterface.bulkInsert('mst_training_practice_subs', [{
+          stage_id: 1,
+          value: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第2段階',
+          stage_id: 2,
+          value: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第3段階',
+          stage_id: 3,
+          value: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第4段階',
+          stage_id: 4,
+          value: '',
           created_at: time,
           updated_at: time
       },{
-          name: 'ピーク',
+          stage_id: 5,
+          value: '',
           created_at: time,
           updated_at: time
       },{
-          name: '準ピーク',
+          stage_id: 6,
+          value: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第5段階',
+          stage_id: 7,
+          value: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第6段階',
+          stage_id: 8,
+          value: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第7段階',
+          stage_id: 9,
+          value: '',
           created_at: time,
           updated_at: time
       },{
-          name: '第8段階',
+          stage_id: 10,
+          value: '',
           created_at: time,
           updated_at: time
       }], {});
